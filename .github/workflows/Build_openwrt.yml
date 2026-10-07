@@ -55,7 +55,7 @@ jobs:
     - name: Clone source code
       env: 
         REPO_URL: https://github.com/Ngftrgy/openwrt
-        REPO_BRANCH: v24.10.8
+        REPO_BRANCH: my-openwrt-v24.10.8
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
 
